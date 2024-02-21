@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My portfolio</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1></span>TONY<span>S</span>THOMAS</h1>
+        </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+          <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#skills" data-after="skills">Skills</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>TONY <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./profile.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Electronics and Communication Engineer</h2>
+        <p>I'm an Electronics and Communication Engineering student with a passion for applying theoretical knowledge to real-world scenarios. This portfolio offers a snapshot of my academic journey and hands-on projects, reflecting my commitment to the field. Excited about contributing my skills to innovative endeavors!</p>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+  <!-- Skills and Certifications Section -->
+<section id="skills">
+    <div class="skills container">
+      <div class="skills-header">
+        <h1 class="section-title">Skills &amp; <span>Certifications</span></h1>
+      </div>
+      <div class="all-skills">
+        <div class="skill-item">
+          <h2>Programming Languages</h2>
+          <p>Java, Python, C++</p>
+        </div>
+        
+        <div class="skill-item">
+          <h2>Web Development</h2>
+          <p>HTML, CSS, JavaScript, </p>
+        </div>
+        
+        <div class="skill-item">
+          <h2>Soft Skills</h2>
+          <p>Communication, TeamWork</p>
+        </div>
+        <div class="skill-item">
+          <h2>Certifications</h2>
+          <p>SQL, ARDUINO</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Skills and Certifications Section -->
+  
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>Driver Drowsiness Detection System</h2>
+            <p>This project utilizes computer vision techniques to monitor the driver's facial features and detect signs of drowsiness in real-time. By analyzing facial expressions and eye movements, the system alerts the driver with visual and auditory signals if signs of drowsiness are detected, enhancing road safety. The integration of Raspberry Pi ensures a compact and efficient solution for real-world implementation.</p>
+          </div>
+          <div class="project-img">
+            <img src="./Driver.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2>Smart Walking Stick for  Blind</h2>
+            <p>A smart walking stick for the blind with computer vision uses cameras and image processing to detect obstacles. Equipped with a camera, it captures the environment, and the system provides real-time feedback through vibrations or audible alerts when obstacles are detected. This enhances the mobility and safety of visually impaired individuals, allowing them to navigate their surroundings more confidently.</p>
+          </div>
+          <div class="project-img">
+            <img src="./blind.jpg" alt="img">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+ 
+  <!-- Contact Section -->
+ <section id="contact">
+  <div class="contact container">
+    <div>
+      <h1 class="section-title">Contact <span>Me</span></h1>
+    </div>
+      <div class="contact-form">
+        <form action="submit_form.php" method="post">
+          <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="cta">Send Message</button>
+        </form>
+      </div>
+      <!-- End Contact Form -->
+   
+
+  
+</body>
+
+</html>
+
